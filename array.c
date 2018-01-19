@@ -1,4 +1,5 @@
-int main()
+#include<stdio.h>
+void main()
 {
     cout << "First Test\n";
     int arr1[] = {4, 5, 6, 7, 8, 4, 4};
@@ -22,7 +23,5 @@ int main()
     int arr4[] = {2, 3, 3, 2};
     size = sizeof(arr4)/sizeof(arr4[0]);
     k = 3;
-    moreThanNdK(arr4, size, k);
- 
-    return 0;
+    moreThanNdK(arr4, size, k)
 }
