@@ -15,4 +15,5 @@ int main()
 
     printf("Number of digits: %d", count);
     getch();
+    return o;
 }
