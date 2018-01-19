@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<conio.h>
  
-int main()
+void main()
 { 
     int a,b,c;
     int largest;
@@ -18,6 +18,5 @@ int main()
  
     printf("Largest number is = %d",largest);
  
-    return 0;
  getch();
 }
