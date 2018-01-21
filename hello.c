@@ -1,6 +1,6 @@
-#include <iostream>
+#include <iostream.h>
 #include<conio.h>
-int main() 
+void main() 
 {
     int i, n;
     cin >> n;
@@ -8,6 +8,5 @@ int main()
     {
         cout << "hello world\n";
     }
-    return 0;
     getch();
 }
